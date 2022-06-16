@@ -265,6 +265,9 @@ footer h3 {
     grid-template-columns: 50% 50%;
     grid-template-rows: 50%  50%  50%  50%  50%;
     
-
 }
  
+.container1 {
+
+    margin: 450 0 450 0;
+}

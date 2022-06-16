@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,13 +14,37 @@
 <body>
     <main>
         <h1>Comida Tipica De Colombia</h1>
-        <div class="paginas">
-            <a href="../index.html" class="decoracion">Inicio</a>
-            <a href="../pages/regiones.html" class="decoracion">Regiones</a>
-            <a href="../pages/musica.html" class="decoracion"> Musica</a>
-            <a href="../pages/comida.html" class="decoracion">Comida</a>
-            <a href="../pages/historia.html" class="decoracion">Historia</a>
-        </div>
+        <nav class="navbar navbar-expand-lg bg-light paginas">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">SECCIONES</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a href="../index.html" class="decoracion">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a href="../pages/regiones.html" class="decoracion">Regiones</a>
+                </li>
+                <li class="nav-item">
+                  <a href="../pages/musica.html" class="decoracion">Musica</a>
+                </li>
+                <li class="nav-item">
+                  <a href="../pages/comida.html" class="decoracion">Comida</a> 
+                </li>
+                <li class="nav-item">
+                  <a href="../pages/historia.html" class="decoracion">Historia</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+              </form>
+            </div>
+          </div>
+        </nav>
         <article class="article1">La comida típica de Colombia no es que sea muy conocida mundialmente, pero sin duda el país tiene una serie de deliciosas comidas tradicionales. Cada región de Colombia tiene sus propios platos y sus propias variantes de los platos nacionales. Aunque hay más, en este artículo hemos hecho una recopilación de algunos de los mejores platos típicos colombianos.</article>
         <section class="decoracion">
             <h3 ><ul>Algunos platos de nuestra comida Tipica:</h3>
@@ -81,7 +106,6 @@
             </form>
         </section>
             <button>Enviar</button>
-            
     </main>
     <footer>
         <h2>¿Deseas Hacer Un Sitio Web?</h2>
@@ -102,5 +126,6 @@
             <article class="espaciado">correo:<a href="mailto:colombia@gmail.com" class="decoracion">colombia@gmail.com</a></article>
         </section>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>  
 </body>
 </html>

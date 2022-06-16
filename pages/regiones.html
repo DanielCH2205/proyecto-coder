@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,13 +14,37 @@
 <body>
     <main>
         <h1>Regiones de Colombia</h1>
-        <div class="paginas">
-            <a href="../index.html" class="decoracion">Inicio</a>
-            <a href="../pages/regiones.html" class="decoracion">Regiones</a>
-            <a href="../pages/musica.html" class="decoracion"> Musica</a>
-            <a href="../pages/comida.html" class="decoracion">Comida</a>
-            <a href="../pages/historia.html" class="decoracion">Historia</a>
-        </div>
+        <nav class="navbar navbar-expand-lg bg-light paginas">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">SECCIONES</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a href="../index.html" class="decoracion">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a href="../pages/regiones.html" class="decoracion">Regiones</a>
+                </li>
+                <li class="nav-item">
+                  <a href="../pages/musica.html" class="decoracion">Musica</a>
+                </li>
+                <li class="nav-item">
+                  <a href="../pages/comida.html" class="decoracion">Comida</a> 
+                </li>
+                <li class="nav-item">
+                  <a href="../pages/historia.html" class="decoracion">Historia</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+              </form>
+            </div>
+          </div>
+        </nav>
         <article class="article1">Las regiones naturales de Colombia son divisiones territoriales realizadas a partir de características heterogéneas en cuanto al relieve, clima, vegetación y clases de suelo del país. Debido a la gran diversidad de climas y relieves, estas diferencias regionales se definen por una serie de factores muy claros tales como las características del relieve (ya sea montañoso o llano), la distancia al mar, el promedio de lluvias y las condiciones del suelo. De acuerdo con estas condiciones en Colombia se pueden diferenciar seis regiones naturales:</article>
         <div class="lista">
             <h3><ul>Regiones:</h3>
@@ -87,5 +112,6 @@
             <article class="espaciado">correo:<a href="mailto:colombia@gmail.com" class="decoracion">colombia@gmail.com</a></article>
         </section>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>  
 </body>
 </html>

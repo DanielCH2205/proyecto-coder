@@ -104,8 +104,16 @@ main h1{
     border: 5px solid rgb(0, 0, 0);
     border-radius: 5px;
     margin: 10px;
-    transform: translate(500px);
+    transform: translate(565px);
     
+}
+
+.video__regiones {
+
+    margin-top: 5px;
+    margin-left: 450px;
+    margin-bottom: 5px;
+
 }
 
 .imagenes__historia {
@@ -182,13 +190,11 @@ footer h3 {
 
 .redes-sociales {
 
-    margin-top: 10px;
-    margin-left: 350px;
-    margin-right: 350px;
+    margin: 10px;
     background-image: linear-gradient(to left, rgb(212, 255, 94), rgb(0, 247, 255));
     margin-bottom: 50px;
     border: 5px;
-    padding: 5px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -206,7 +212,7 @@ footer h3 {
 
 .tarjeta__imagen {
 
-    width: 240px;
+    width: 150px;
     margin: 5px;
     border-radius: 10px;
 }
@@ -222,11 +228,10 @@ footer h3 {
     border-radius: 5px;
 }
 
-.tarjeta__imagen-musica {
+.video__musica {
 
-    width: 250px;
-    height: 150;
-    border-radius: 10px;
+ margin-left: 450px;
+
 }
 
 .flex {
@@ -252,6 +257,12 @@ footer h3 {
     flex-wrap: wrap;
 }
 
+.video__comida {
+
+    margin-left: 450px;
+
+}
+
 
 
 .grid {
@@ -266,8 +277,25 @@ footer h3 {
     grid-template-rows: 50%  50%  50%  50%  50%;
     
 }
- 
-.container1 {
 
-    margin: 450 0 450 0;
+.boton {
+
+    background-color: rgb(126, 250, 248);
+    width: 70px;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 685px;
+    margin-right: 350px;
+    margin-bottom: 10px;
+    font-size: bold;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.mapa {
+
+    border-radius: 5px;
+    margin-left: 300px;
+
 }

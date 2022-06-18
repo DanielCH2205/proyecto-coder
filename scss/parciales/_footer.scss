@@ -2,8 +2,8 @@ footer h2 {
 
     text-align: center;
     border: 5px ;
-    background-image: linear-gradient(to left, rgb(212, 255, 94), rgb(0, 247, 255));
-    color:  rgb(0, 0, 0);
+    background-image: $color-principal-fondo;
+    color:  $color-letra;
     padding: 10px;
     margin-left: 35px;
     margin-right: 35px;
@@ -12,10 +12,10 @@ footer h2 {
 footer h3 {
 
     text-align: center;
-    background-image: linear-gradient(to left, rgb(212, 255, 94), rgb(0, 247, 255));
+    background-image: $color-principal-fondo;
     border: 5px ;
     padding: 10px;
-    color:  rgb(0, 0, 0);
+    color:  $color-letra;
     margin-left: 35px;
     margin-right: 35px;
 
@@ -23,7 +23,7 @@ footer h3 {
 .redes-sociales {
 
     margin: 10px;
-    background-image: linear-gradient(to left, rgb(212, 255, 94), rgb(0, 247, 255));
+    background-image: $color-principal-fondo;
     margin-bottom: 50px;
     border: 5px;
     padding: 10px;
@@ -35,7 +35,7 @@ footer h3 {
     text-align: center;
     text-decoration: none;
     font-size: 18px;
-    background-image: linear-gradient(to left, rgb(103, 230, 162), rgb(0, 247, 255));
+    background-image: $color-principal-fondo;
     font-size: bold;
     margin: 40px;
 }

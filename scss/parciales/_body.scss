@@ -9,24 +9,24 @@ body {
 main section h1{ 
 
     text-align: center;
-    background-color: rgb(255, 255, 10) ;
-    color: rgb(0, 0, 0);
+    background-color: $color-principal-fondo;
+    color: $color-letra;
     padding: 5px;    
     font-size: 40px;
 
 }
 main h1{ 
 
-    background-image: linear-gradient(to left, rgb(212, 255, 94), rgb(0, 247, 255));
+    background-image: $color-principal-fondo;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: $color-letra;
     padding: 5px;    
     font-size: 40px;
 
 }
 .paginas {
 
-    background-image: linear-gradient(to left, rgb(212, 255, 94), rgb(0, 247, 255));
+    background-image: $color-principal-fondo;
     text-align: center;
     border: 5px ;
     padding: 10px;
@@ -36,7 +36,7 @@ main h1{
 
     text-decoration: none;
     text-align: center;
-    background-image: linear-gradient(to left, rgb(212, 255, 94), rgb(0, 247, 255));
+    background-image: $color-principal-fondo;
     margin-top: 10px;
     margin-left: 200px;
     margin-right: 200px;
@@ -45,7 +45,7 @@ main h1{
 }
 .article1 {
 
-    background-image: linear-gradient(to left, rgb(212, 255, 94), rgb(0, 247, 255));
+    background-image: $color-principal-fondo;
     font-size: bold;
     margin: 35px;
     padding: 5px;
@@ -62,9 +62,9 @@ main h1{
 }
 main section h2 {
 
-    background-image: linear-gradient(to left, rgb(212, 255, 94), rgb(0, 247, 255));
+    background-image: $color-principal-fondo;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: $color-letra;
     border: 5px ;
     padding: 10px;
     margin: 35px;
@@ -73,9 +73,9 @@ main section h2 {
 .formulario1 {
 
     text-align: center;
-    background-image: linear-gradient(to left, rgb(212, 255, 94), rgb(0, 247, 255));
+    background-image: $color-principal-fondo;
     padding: 5px;
-    color: black;
+    color: $color-letra;
     line-height: 1.5;
     margin-left: 200px;
     margin-right: 200px;
@@ -86,7 +86,7 @@ main section h2 {
 .formulario2{
 
     padding: 10px;
-    background-image: linear-gradient(to left, rgb(212, 255, 94), rgb(0, 247, 255));
+    background-image: $color-principal-fondo;
     text-align: center;
     margin-left: 200px;
     margin-right: 200px;
@@ -97,10 +97,10 @@ main section h2 {
 footer h3 {
 
     text-align: center;
-    background-image: linear-gradient(to left, rgb(212, 255, 94), rgb(0, 247, 255));
+    background-image: $color-principal-fondo;
     border: 5px ;
     padding: 10px;
-    color:  rgb(0, 0, 0);
+    color: $color-letra;
     margin-left: 35px;
     margin-right: 35px;
 

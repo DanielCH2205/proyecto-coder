@@ -13,7 +13,7 @@ body {
 
 main section h1 {
   text-align: center;
-  background-color: rgb(255, 255, 10);
+  background-color: linear-gradient(to left, rgb(212, 255, 94), rgb(0, 247, 255));
   color: rgb(0, 0, 0);
   padding: 5px;
   font-size: 40px;
@@ -34,15 +34,6 @@ main h1 {
   padding: 10px;
 }
 
-.decoracion {
-  text-align: center;
-  text-decoration: none;
-  font-size: 18px;
-  background-image: linear-gradient(to left, rgb(103, 230, 162), rgb(0, 247, 255));
-  font-size: bold;
-  margin: 40px;
-}
-
 .lista {
   text-decoration: none;
   text-align: center;
@@ -51,12 +42,6 @@ main h1 {
   margin-left: 200px;
   margin-right: 200px;
   margin-bottom: 10px;
-}
-
-.izquierda {
-  text-align: left;
-  list-style: none;
-  margin: 15px;
 }
 
 .article1 {
@@ -74,33 +59,6 @@ main h1 {
   text-align: justify;
 }
 
-.imagenes {
-  border: 5px solid rgb(0, 0, 0);
-  border-radius: 5px;
-  margin: 10px;
-  transform: translate(300px);
-}
-
-.imagenes__regiones {
-  border: 5px solid rgb(0, 0, 0);
-  border-radius: 5px;
-  margin: 10px;
-  transform: translate(565px);
-}
-
-.video__regiones {
-  margin-top: 5px;
-  margin-left: 450px;
-  margin-bottom: 5px;
-}
-
-.imagenes__historia {
-  border: 5px solid rgb(0, 0, 0);
-  border-radius: 5px;
-  margin: 10px;
-  transform: translate(430px);
-}
-
 main section h2 {
   background-image: linear-gradient(to left, rgb(212, 255, 94), rgb(0, 247, 255));
   text-align: center;
@@ -114,7 +72,7 @@ main section h2 {
   text-align: center;
   background-image: linear-gradient(to left, rgb(212, 255, 94), rgb(0, 247, 255));
   padding: 5px;
-  color: black;
+  color: rgb(0, 0, 0);
   line-height: 1.5;
   margin-left: 200px;
   margin-right: 200px;
@@ -128,8 +86,27 @@ main section h2 {
   margin-right: 200px;
 }
 
-.espaciado {
-  margin: 10px;
+footer h3 {
+  text-align: center;
+  background-image: linear-gradient(to left, rgb(212, 255, 94), rgb(0, 247, 255));
+  border: 5px;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.boton {
+  background-color: rgb(126, 250, 248);
+  width: 70px;
+  height: 35px;
+  margin-top: 10px;
+  margin-left: 685px;
+  margin-right: 350px;
+  margin-bottom: 10px;
+  font-size: bold;
+  border: none;
+  border-radius: 5px;
 }
 
 footer h2 {
@@ -161,9 +138,38 @@ footer h3 {
   text-align: center;
 }
 
+.decoracion {
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  background-image: linear-gradient(to left, rgb(212, 255, 94), rgb(0, 247, 255));
+  font-size: bold;
+  margin: 40px;
+}
+
+.imagenes__regiones {
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  margin: 10px;
+  transform: translate(565px);
+}
+
+.video__regiones {
+  margin-top: 5px;
+  margin-left: 450px;
+  margin-bottom: 5px;
+}
+
+.imagenes__historia {
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  margin: 10px;
+  transform: translate(430px);
+}
+
 .tarjeta {
   background-color: rgb(255, 255, 255);
-  color: black;
+  color: rgb(0, 0, 0);
   width: 370px;
   height: 400px;
   padding: 20px;
@@ -177,9 +183,32 @@ footer h3 {
   border-radius: 10px;
 }
 
+.grid {
+  margin: 10px;
+  border: 5px solid black;
+  padding: 5px solid blue;
+  max-height: 1000px;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50% 50% 50% 50%;
+}
+
+.video__comida {
+  margin-left: 450px;
+}
+
+.flex-comida {
+  margin: 5px;
+  border: 5px solid rgb(0, 0, 0);
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .tarjeta-musica {
   background-color: rgb(255, 255, 255);
-  color: black;
+  color: rgb(0, 0, 0);
   width: 250px;
   height: 250px;
   padding: 10px;
@@ -203,40 +232,21 @@ footer h3 {
   margin: 10px;
 }
 
-.flex-comida {
-  margin: 5px;
+.izquierda {
+  text-align: left;
+  list-style: none;
+  margin: 15px;
+}
+
+.imagenes {
   border: 5px solid rgb(0, 0, 0);
-  padding: 5px;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.video__comida {
-  margin-left: 450px;
-}
-
-.grid {
-  margin: 10px;
-  border: 5px solid black;
-  padding: 5px solid blue;
-  max-height: 1000px;
-  align-items: center;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50% 50% 50% 50%;
-}
-
-.boton {
-  background-color: rgb(126, 250, 248);
-  width: 70px;
-  height: 35px;
-  margin-top: 10px;
-  margin-left: 685px;
-  margin-right: 350px;
-  margin-bottom: 10px;
-  font-size: bold;
-  border: none;
   border-radius: 5px;
+  margin: 10px;
+  transform: translate(300px);
+}
+
+.espaciado {
+  margin: 10px;
 }
 
 .mapa {

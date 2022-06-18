@@ -1,0 +1,122 @@
+body {
+    background-image: url(https://cnnespanol.cnn.com/wp-content/uploads/2019/09/gettyimages-618910680.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+
+}
+main section h1{ 
+
+    text-align: center;
+    background-color: rgb(255, 255, 10) ;
+    color: rgb(0, 0, 0);
+    padding: 5px;    
+    font-size: 40px;
+
+}
+main h1{ 
+
+    background-image: linear-gradient(to left, rgb(212, 255, 94), rgb(0, 247, 255));
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 5px;    
+    font-size: 40px;
+
+}
+.paginas {
+
+    background-image: linear-gradient(to left, rgb(212, 255, 94), rgb(0, 247, 255));
+    text-align: center;
+    border: 5px ;
+    padding: 10px;
+
+}
+.lista {
+
+    text-decoration: none;
+    text-align: center;
+    background-image: linear-gradient(to left, rgb(212, 255, 94), rgb(0, 247, 255));
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 10px;
+
+}
+.article1 {
+
+    background-image: linear-gradient(to left, rgb(212, 255, 94), rgb(0, 247, 255));
+    font-size: bold;
+    margin: 35px;
+    padding: 5px;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.article2 {
+
+    margin: 20px;
+    text-align: justify;
+
+}
+main section h2 {
+
+    background-image: linear-gradient(to left, rgb(212, 255, 94), rgb(0, 247, 255));
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border: 5px ;
+    padding: 10px;
+    margin: 35px;
+
+}
+.formulario1 {
+
+    text-align: center;
+    background-image: linear-gradient(to left, rgb(212, 255, 94), rgb(0, 247, 255));
+    padding: 5px;
+    color: black;
+    line-height: 1.5;
+    margin-left: 200px;
+    margin-right: 200px;
+
+
+}
+
+.formulario2{
+
+    padding: 10px;
+    background-image: linear-gradient(to left, rgb(212, 255, 94), rgb(0, 247, 255));
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+
+
+footer h3 {
+
+    text-align: center;
+    background-image: linear-gradient(to left, rgb(212, 255, 94), rgb(0, 247, 255));
+    border: 5px ;
+    padding: 10px;
+    color:  rgb(0, 0, 0);
+    margin-left: 35px;
+    margin-right: 35px;
+
+}
+
+.boton {
+
+    background-color: rgb(126, 250, 248);
+    width: 70px;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 685px;
+    margin-right: 350px;
+    margin-bottom: 10px;
+    font-size: bold;
+    border: none;
+    border-radius: 5px;
+    
+}

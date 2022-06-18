@@ -1,0 +1,41 @@
+.tarjeta {
+
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width: 370px;
+    height: 400px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.tarjeta__imagen {
+
+    width: 150px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.grid {
+
+    margin: 10px;
+    border: 5px solid black; 
+    padding: 5px solid blue;
+    max-height: 1000px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50%  50%  50%  50%  50%;
+    
+}
+.video__comida {
+
+    margin-left: 450px;
+
+}
+.flex-comida {
+
+    margin: 5px;
+    border: 5px solid rgb(0, 0, 0);
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}

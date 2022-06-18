@@ -1,0 +1,28 @@
+.tarjeta-musica {
+
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.video__musica {
+
+ margin-left: 450px;
+
+}
+.flex {
+
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex__hijo {
+
+    padding: 10px;
+    width: 280px;
+    margin: 10px;
+} 

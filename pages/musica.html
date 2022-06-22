@@ -15,7 +15,9 @@
 </head>
 <body>
     <header>
+        <section>
         <h1>Musica Tipica De Colombia</h1>
+        </section>
         <nav class="navbar navbar-expand-lg bg-light paginas">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">SECCIONES</a>
@@ -54,70 +56,70 @@
                 <div class="flex__hijo">
                     <section class="tarjeta-musica">
                         <h3>Tiple</h3>
-                        <img src="../images/tiple.jpg" alt="tiple" width="230">
+                        <img src="../images/tiple.jpg" alt="tiple" class="contenedor">
                     </section>
                 </div>
-                <div class="flex__hijo">
+                <div class="flex__hijo" class="contenedor">
                     <section class="tarjeta-musica" >
                         <h3>Acordeón</h3>
-                        <img src="../images/acordeon.jpg" alt="acordeon" width="200" >
+                        <img src="../images/acordeon.jpg" alt="acordeon"  class="contenedor">
                     </section>
                 </div>
                 <div class="flex__hijo">
                     <section class="tarjeta-musica">
                         <h3>Marimba</h3>
-                        <img src="../images/marimba.jpg" alt="marimba" width="200">
+                        <img src="../images/marimba.jpg" alt="marimba" class="contenedor">
                     </section>
                 </div>
                 <div class="flex__hijo">
                     <section class="tarjeta-musica">
                         <h3>Guacharasca</h3>
-                        <img src="../images/guacharaca.jpg" alt="guacharaca" width="150">
+                        <img src="../images/guacharaca.jpg" alt="guacharaca" class="contenedor">
                     </section>
                 </div>
                 <div class="flex__hijo">
                     <section class="tarjeta-musica">
                         <h3>Bombo</h3>
-                        <img src="../images/bombo.jpg" alt="bombo" width="150">
+                        <img src="../images/bombo.jpg" alt="bombo" class="contenedor">
                     </section>
                 </div>
             </section>
         </section>
         <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/JW7scc8y8zM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video__musica"></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/JW7scc8y8zM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="contenedor"></iframe>
         </div>
     </header>
     <main>
         <section>
         <h2>¿Por que visitaste mi pagina?</h2>
-            <form action="" method="" class="formulario2">
-                <div>
-                    <label for="seleccion">Escoge una opción:</label>
-                    <select name="seleccion" id="seleccion">
-                        <option value="informacion">Informacion</option>
-                        <option value="curiosidad">Curiosidad</option>
-                        <option value="Calificar">Calificar</option>
-                        <option value="observar">Saber que has aprendido</option>
-                    </select>
-                </div>
-                <div class="espaciado">
-                    <label for="nombre completo"> Nombre Completo:</label>
-                    <input type="text" id="nombre completo" name="nombre completo" placeholder="Nombre completo">
-                </div>
-                <div class="espaciado">
-                    <label for="edad"> Que edad tienes:</label>
-                    <input type="number" id="edad" name="edad" placeholder="Ingrese su edad">
-                </div>
-                <div class="espaciado">
-                    <label for="email"> Ingresa tu correo:</label>
-                    <input type="text" id="email" name="email" placeholder="Ingrese su correo electronico">
-                </div>
-                <div class="espaciado">
-                    <label for="comentario"> Ayudanos a mejorar con tus comentrios:</label>
-                    <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Escribe tu comentario"></textarea>
-                </div>
-            </form>
         </section>
+        <form action="" method="" class="formulario2 contenedor">
+            <div>
+                <label for="seleccion">Escoge una opción:</label>
+                <select name="seleccion" id="seleccion">
+                    <option value="informacion">Informacion</option>
+                    <option value="curiosidad">Curiosidad</option>
+                    <option value="Calificar">Calificar</option>
+                    <option value="observar">Saber que has aprendido</option>
+                </select>
+            </div>
+            <div class="espaciado">
+                <label for="nombre completo"> Nombre Completo:</label>
+                <input type="text" id="nombre completo" name="nombre completo" placeholder="Nombre completo">
+            </div>
+            <div class="espaciado">
+                <label for="edad"> Que edad tienes:</label>
+                <input type="number" id="edad" name="edad" placeholder="Ingrese su edad">
+            </div>
+            <div class="espaciado">
+                <label for="email"> Ingresa tu correo:</label>
+                <input type="text" id="email" name="email" placeholder="Ingrese su correo electronico">
+            </div>
+            <div class="espaciado">
+                <label for="comentario"> Ayudanos a mejorar con tus comentrios:</label>
+                <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Escribe tu comentario"></textarea>
+            </div>
+        </form>
         <div>
             <button class="boton">Enviar</button>
         </div>
@@ -126,14 +128,10 @@
         <h2>¿Deseas Hacer Un Sitio Web?</h2>
         <h3>Nuestras redes sociales</h3>
         <section class="redes-sociales">
-            <img src="../images/facebook.webp" alt="logotipo facebook" width="50">
-            <a href="https://es-la.facebook.com/login/device-based/regular/login/" target="blank" class="decoracion">Ir a Facebook</a>
-            <img src="../images/Instagram.webp" alt="logotipo instagram" width="50">
-            <a href="https://www.instagram.com/?hl=es" target="blank" class="decoracion">Ir a Instagram</a>
-            <img src="../images/twitter.png" alt="logotipo twitter" width="50">
-            <a href="https://twitter.com/?lang=es" target="blank" class="decoracion">Ir a Twitter</a>
-            <img src="../images/youtube.png" alt="logotipo youtube" width="50">
-            <a href="http://www.youtube.com/watch?v=n8u-tDr565Y" target="blank" class="decoracion">Ir a Youtube</a>
+            <a href="https://www.facebook.com/"><img src="../images/facebook.webp" alt="logotipo facebook" width="50" ></a>
+            <a href="https://www.instagram.com/"><img src="../images/Instagram.webp" alt="logotipo instagram" width="50"></a>
+            <a href="https://twitter.com/?lang=es"><img src="../images/twitter.png" alt="logotipo twitter" width="50"></a>
+            <a href="https://www.youtube.com/"><img src="../images/youtube.png" alt="logotipo youtube" width="50"></a>
             <article class="espaciado">correo:<a href="mailto:colombia@gmail.com" class="decoracion">colombia@gmail.com</a></article>
         </section>
     </footer>

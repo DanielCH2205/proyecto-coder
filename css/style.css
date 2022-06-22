@@ -100,29 +100,31 @@ main h1{
 
 .imagenes__regiones {
 
-    
+    max-width: 400px;
+    max-height:400px ;
     border: 5px solid rgb(0, 0, 0);
     border-radius: 5px;
-    margin: 10px;
-    transform: translate(565px);
+    margin-left: 300px;
     
 }
 
 .video__regiones {
 
+   margin: 15px;
+    max-width: 400px;
+   max-height:400px ;
     margin-top: 5px;
     margin-left: 450px;
     margin-bottom: 5px;
-
+    
 }
 
 .imagenes__historia {
 
-    width: 450px;
-    border: 5px solid rgb(0, 0, 0);
+    max-width: 350px;
+    border:  solid rgb(0, 0, 0);
     border-radius: 5px;
     margin: 10px;
-    transform: translate(430px);
     
 }
 
@@ -152,7 +154,7 @@ main section h2 {
 
 .formulario2{
 
-    padding: 10px;
+    padding: auto;
     background-color: #ffffff;
     text-align: center;
     margin-left: 200px;
@@ -203,8 +205,7 @@ footer h3 {
 
     background-color: rgb(255, 255, 255);
     color: black;
-    width: 370px;
-    height: 400px;
+    width: auto;
     padding: 20px;
     margin: 10px;
     border-radius: 5px;
@@ -222,7 +223,7 @@ footer h3 {
 
     background-color: rgb(255, 255, 255);
     color: black;
-    width: 250px;
+    width: auto;
     height: 250px;
     padding: 10px;
     margin: 10px;
@@ -265,16 +266,21 @@ footer h3 {
 
 }
 
-
+.mapa {
+    max-width: 800px;
+    max-height: 750px;
+    margin: 0px auto;
+    overflow: hidden;
+    margin-left: 650px;
+}
 
 .grid {
 
     margin: 10px;
     border: 5px solid black; 
     padding: 5px solid blue;
-    max-height: 1000px;
     align-items: center;
-    display: grid;
+    display: grid auto;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50%  50%  50%  50%  50%;
     
@@ -285,20 +291,22 @@ footer h3 {
     background-color: rgb(255, 255, 255);
     width: 70px;
     height: 35px;
-    margin-top: 10px;
-    margin-left: 685px;
-    margin-right: 350px;
-    margin-bottom: 10px;
     font-size: bold;
     border: none;
     border-radius: 5px;
-    
+margin-left: 1000px;    
 }
 
-.mapa {
 
-    border-radius: 5px;
-    margin-left: 300px;
+.contenedor{
+
+    width: 100%;
+    max-width:auto;
+    margin: 0 auto;
+    background-color: #FEABDA;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
 
 }
 
@@ -308,3 +316,5 @@ footer h3 {
     text-align: center;
 
 }
+
+

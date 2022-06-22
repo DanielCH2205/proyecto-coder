@@ -124,7 +124,8 @@ main h1{
     max-width: 350px;
     border:  solid rgb(0, 0, 0);
     border-radius: 5px;
-    margin: 10px;
+    margin: auto;
+    align-items: center;
     
 }
 
@@ -234,6 +235,8 @@ footer h3 {
 .video__musica {
 
  margin-left: 450px;
+ max-width: 500px;
+
 
 }
 
@@ -294,7 +297,7 @@ footer h3 {
     font-size: bold;
     border: none;
     border-radius: 5px;
-margin-left: 1000px;    
+    margin-left: 1000px;    
 }
 
 
